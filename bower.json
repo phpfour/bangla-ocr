@@ -1,0 +1,16 @@
+{
+  "name": "BanglaOCR",
+  "description": "A small app to convert image to text through Google Drive.",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "bootstrap-select": "~1.6.4",
+    "bootstrap-social": "~4.10.1",
+    "dropzone": "4.0.1",
+    "font-awesome": "~4.4.0",
+    "imagesloaded": "~3.1.8",
+    "jquery": ">= 1.9.0",
+    "jquery.cookie": "~1.4.1",
+    "masonry": "~3.3.2"
+  }
+}

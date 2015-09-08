@@ -1,0 +1,53 @@
+@import "font-awesome";
+@import "bootstrap";
+@import "bootstrap-select";
+@import "bootstrap-social";
+@import "main";
+@import "content";
+@import "header";
+@import "loading";
+@import "sidebar";
+@import "widgets";
+@import "dropzone";
+
+.avatar {
+  border-radius: 16px !important;
+  height: 32px !important;
+  width: 32px !important;
+}
+
+.grid {
+  width: 100%;
+}
+
+.grid-sizer, .grid-item {
+  float: left;
+  background: #fff;
+  border-radius: 2px;
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 0 2px 0 rgba(60, 66, 86, 0.4);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 0 5px 0 rgba(60, 66, 86, 0.4);
+  cursor: pointer;
+  display: inline-block;
+  min-height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 18%;
+}
+
+.grid-item.pending {
+  opacity: .5;
+}
+
+.grid-item:hover {
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 0 15px 0 rgba(60, 66, 86, 0.4);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 0 15px 0 rgba(60, 66, 86, 0.4);
+}
+
+.dz-message span {
+  border: 3px dashed #ccc;
+  display: block;
+  cursor: pointer;
+  padding: 25px;
+  text-align: center;
+}
